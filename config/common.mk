@@ -92,6 +92,10 @@ ifneq ($(TARGET_DISABLE_CMSDK), true)
 include vendor/cm/config/cmsdk_common.mk
 endif
 
+#masquerade
+PRODUCT_PACKAGES += \
+masquerade
+
 # Bootanimation
 PRODUCT_PACKAGES += \
     bootanimation.zip
