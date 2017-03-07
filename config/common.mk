@@ -132,6 +132,10 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+# ThemeInterfacer
+PRODUCT_PACKAGES += \
+ThemeInterfacer
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
